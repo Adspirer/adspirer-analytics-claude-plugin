@@ -35,7 +35,17 @@ Walk my conversion funnel and tell me where it breaks.
 Audit my GA4 and Meta Pixel tracking.
 ```
 
-Slash commands: `/adspirer-analytics-tracking-audit`, `/adspirer-analytics-wasted-spend`, `/adspirer-analytics-weekly-report` (prefixed `/adspirer-analytics:` if another plugin uses the same name).
+Or start with a slash command:
+
+| Command | What it does |
+| --- | --- |
+| `/adspirer-analytics:setup` | Connect your accounts and get a first look |
+| `/adspirer-analytics:status` | Connected accounts and remaining plan usage |
+| `/adspirer-analytics:performance-review` | Scorecard against the previous period, with the top problems |
+| `/adspirer-analytics:wasted-spend` | Spend that is not converting, with a fix proposed for each item |
+| `/adspirer-analytics:tracking-audit` | Grade conversion tracking and list the gaps |
+
+Commands take an optional platform and period, for example `/adspirer-analytics:performance-review last 7 days`. In claude.ai chat, where there is no slash menu, ask for the same thing in words.
 
 ## What the agent can do
 
@@ -52,7 +62,7 @@ This plugin is read-only by design. Requests to create, pause, change budgets, s
 
 - **Skills:** `adspirer-analytics-attribution`, `adspirer-analytics-competitor-research`, `adspirer-analytics-conversion-tracking`, `adspirer-analytics-cross-channel`, `adspirer-analytics-platform-reports`, `adspirer-analytics-product-help`, `adspirer-analytics-setup`, `adspirer-analytics-strategy`, `adspirer-analytics-tools`, `adspirer-analytics-web-analytics`.
 - **A subagent** (`adspirer-analytics-agent`) that coordinates those skills.
-- **Slash commands** for the most common reports.
+- **Slash commands** (`setup`, `status`, `performance-review`, `wasted-spend`, `tracking-audit`) for the most common reports.
 - **The Adspirer Marketing Analytics MCP server** connection (`.mcp.json`).
 
 The hosted server is the source of truth for tool names and schemas. The skills teach the agent to
