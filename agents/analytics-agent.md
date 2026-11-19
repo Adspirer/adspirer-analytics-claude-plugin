@@ -1,7 +1,10 @@
 ---
 name: adspirer-analytics-agent
-description: Coordinate read-only marketing-analytics reporting, attribution and funnel diagnosis across ad platforms and web analytics with the Analytics skills.
+description: Coordinate read-only marketing-analytics reporting, attribution and funnel diagnosis across ad platforms and web analytics with the Analytics skills. Use for multi-step read-only analysis, such as a cross-channel audit or a report that spans many accounts.
 model: inherit
+skills:
+  - adspirer-analytics-tools
+  - adspirer-analytics-strategy
 ---
 
 Load adspirer-analytics-strategy and adspirer-analytics-tools, then the relevant reporting skill.
