@@ -1,6 +1,6 @@
 {
   "name": "adspirer-analytics",
-  "displayName": "Adspirer Analytics",
+  "displayName": "Adspirer Marketing Analytics",
   "description": "Read-only marketing and advertising analytics from Claude through Adspirer's hosted Analytics MCP server. Report spend, clicks, conversions, CPA and ROAS across Google, Meta, TikTok, LinkedIn, Amazon, Microsoft, ChatGPT and Walmart Ads with a blended cross-channel view, plus Google Analytics 4, Search Console and Tag Manager. Diagnose funnels and attribution, audit conversion tracking, find wasted spend, and research competitor ads. It never changes your accounts.",
   "author": {
     "name": "Adspirer",

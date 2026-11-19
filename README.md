@@ -1,6 +1,6 @@
-# Adspirer Analytics for Claude
+# Adspirer Marketing Analytics for Claude
 
-Ask Claude how your marketing is doing and get answers from your real accounts. Adspirer Analytics is read-only: it reports spend, clicks, conversions, CPA and ROAS by channel and blended across channels, diagnoses funnels and attribution, audits conversion tracking, and reads Google Analytics 4, Search Console and Tag Manager. It cannot create, change, pause or delete anything.
+Ask Claude how your marketing is doing and get answers from your real accounts. Adspirer Marketing Analytics is read-only: it reports spend, clicks, conversions, CPA and ROAS by channel and blended across channels, diagnoses funnels and attribution, audits conversion tracking, and reads Google Analytics 4, Search Console and Tag Manager. It cannot create, change, pause or delete anything.
 
 ## Use it for
 
@@ -53,7 +53,7 @@ This plugin is read-only by design. Requests to create, pause, change budgets, s
 - **Skills:** `adspirer-analytics-attribution`, `adspirer-analytics-competitor-research`, `adspirer-analytics-conversion-tracking`, `adspirer-analytics-cross-channel`, `adspirer-analytics-platform-reports`, `adspirer-analytics-product-help`, `adspirer-analytics-setup`, `adspirer-analytics-strategy`, `adspirer-analytics-tools`, `adspirer-analytics-web-analytics`.
 - **A subagent** (`adspirer-analytics-agent`) that coordinates those skills.
 - **Slash commands** for the most common reports.
-- **The Adspirer Analytics MCP server** connection (`.mcp.json`).
+- **The Adspirer Marketing Analytics MCP server** connection (`.mcp.json`).
 
 The hosted server is the source of truth for tool names and schemas. The skills teach the agent to
 discover the current tools and their parameters instead of hardcoding every operation.
@@ -95,7 +95,7 @@ documentation at `adspirer.com/docs` to answer questions about plans and setup.
 
 ## Related plugins
 
-Adspirer Analytics is one of Adspirer's focused plugins. The full
+Adspirer Marketing Analytics is one of Adspirer's focused plugins. The full
 [Adspirer Advertising Agent](https://github.com/Adspirer/adspirer-claude-plugin) covers every
 supported platform in one plugin. Installing both is supported; use one connection per task.
 
